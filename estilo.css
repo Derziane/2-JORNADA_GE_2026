@@ -1,0 +1,210 @@
+/*==========================================================
+ESTILIZAÇÃO GERAL DA PÁGINA
+==========================================================*/
+
+/*
+body
+Representa todo o corpo da página.
+
+font-family -> define a fonte do texto.
+background-color -> cor de fundo.
+margin -> remove as margens padrão do navegador.
+padding -> adiciona espaço interno.
+text-align -> centraliza os textos.
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef8f1;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*==========================================================
+TÍTULO PRINCIPAL
+==========================================================*/
+
+/*
+h1
+Seleciona todos os títulos de nível 1.
+
+color -> cor da letra.
+background-color -> cor de fundo.
+padding -> espaço interno.
+border-radius -> arredonda os cantos.
+*/
+h1{
+    color: white;
+    background-color: #2e8b57;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+/*==========================================================
+SUBTÍTULO
+==========================================================*/
+
+/*
+h2
+Seleciona todos os títulos de nível 2.
+*/
+h2{
+    color: #2e8b57;
+    margin-top: 30px;
+}
+
+
+/*==========================================================
+PARÁGRAFOS
+==========================================================*/
+
+/*
+p
+Seleciona todos os parágrafos.
+
+font-size -> tamanho da letra.
+line-height -> espaçamento entre linhas.
+width -> largura do texto.
+margin -> centraliza o bloco.
+*/
+p{
+    font-size:18px;
+    line-height:1.6;
+    width:80%;
+    margin:auto;
+}
+
+
+/*==========================================================
+LISTA
+==========================================================*/
+
+/*
+ul
+Seleciona a lista inteira.
+
+list-style-position -> coloca os marcadores dentro da área.
+width -> largura da lista.
+margin -> centraliza.
+text-align -> alinha o texto à esquerda.
+*/
+ul{
+    width:60%;
+    margin:30px auto;
+    text-align:left;
+    list-style-position: inside;
+}
+
+
+/*
+li
+Seleciona cada item da lista.
+
+padding -> espaço entre os itens.
+font-size -> tamanho da letra.
+*/
+li{
+    padding:8px;
+    font-size:18px;
+}
+
+
+/*==========================================================
+LINK
+==========================================================*/
+
+/*
+a
+Seleciona todos os links.
+
+display:inline-block -> permite definir margem e espaçamento.
+background-color -> cor do botão.
+color -> cor do texto.
+padding -> espaço interno.
+text-decoration -> remove o sublinhado.
+border-radius -> arredonda os cantos.
+margin -> espaço externo.
+*/
+a{
+    display:inline-block;
+    background-color:#2e8b57;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:8px;
+    margin:25px;
+}
+
+
+/*
+a:hover
+
+É aplicado quando o mouse passa sobre o link.
+
+hover significa "ao passar o mouse".
+*/
+a:hover{
+    background-color:#246b45;
+}
+
+
+/*==========================================================
+IMAGEM
+==========================================================*/
+
+/*
+img
+Seleciona todas as imagens.
+
+width -> largura.
+max-width -> impede que fique maior que o tamanho original.
+border-radius -> deixa os cantos arredondados.
+box-shadow -> cria uma sombra.
+margin-top -> espaço acima da imagem.
+*/
+img{
+    width:500px;
+    max-width:100%;
+    border-radius:15px;
+    box-shadow:5px 5px 15px gray;
+    margin-top:20px;
+}
+
+
+/*==========================================================
+RODAPÉ
+==========================================================*/
+
+/*
+footer
+
+Seleciona o rodapé da página.
+
+background-color -> cor de fundo.
+color -> cor do texto.
+padding -> espaço interno.
+margin-top -> distância do conteúdo.
+*/
+footer{
+    background-color:#2e8b57;
+    color:white;
+    padding:20px;
+    margin-top:40px;
+}
+
+
+/*
+footer p
+
+Seleciona apenas os parágrafos que estão
+dentro do rodapé.
+
+font-size -> tamanho da letra.
+margin -> espaço entre os parágrafos.
+*/
+footer p{
+    font-size:16px;
+    margin:5px;
+}
