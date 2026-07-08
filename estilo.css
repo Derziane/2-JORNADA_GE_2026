@@ -207,4 +207,5 @@ margin -> espaço entre os parágrafos.
 footer p{
     font-size:16px;
     margin:5px;
+    text-align: center;
 }
