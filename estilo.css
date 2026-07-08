@@ -192,6 +192,9 @@ footer{
     color:white;
     padding:20px;
     margin-top:40px;
+
+    /* Centraliza todo o conteúdo */
+    text-align:center;
 }
 
 
@@ -205,7 +208,8 @@ font-size -> tamanho da letra.
 margin -> espaço entre os parágrafos.
 */
 footer p{
+    width:100%;          /* ocupa toda a largura */
+    margin:8px 0;        /* espaço entre as linhas */
     font-size:16px;
-    margin:5px;
-    text-align: center;
+    line-height:1.5;
 }
