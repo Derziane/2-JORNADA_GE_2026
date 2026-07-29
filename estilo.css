@@ -35,7 +35,7 @@ body {
   border-radius: 12px;
   padding: 25px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  border-top: 5px solid #2e8b57;
+  border-top: 5px solid #2e2992;
   flex: 1 1 300px;            /* Largura flexível com mínimo de 300px */
   display: flex;
   flex-direction: column;
