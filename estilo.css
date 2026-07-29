@@ -43,7 +43,7 @@ body {
 }
 
 .card h2 {
-  color: #2e8b57;
+  color: #1b487f;
   font-size: 20px;
   margin-top: 0;
 }
@@ -65,7 +65,7 @@ body {
 
 .card-conteudo a {
   display: inline-block;
-  background-color: #2e8b57;
+  background-color: #80277f;
   color: white;
   padding: 12px 20px;
   text-decoration: none;
@@ -75,7 +75,7 @@ body {
 }
 
 .card-conteudo a:hover {
-  background-color: #1b5034;
+  background-color: #811f62;
 }
 
 .card-imagem img {
@@ -84,7 +84,7 @@ body {
 }
 
 footer {
-  background-color: #2e8b57;
+  background-color: #78246c;
   color: white;
   padding: 20px;
   border-radius: 10px;
