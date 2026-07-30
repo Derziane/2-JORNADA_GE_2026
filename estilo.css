@@ -10,6 +10,15 @@ body {
   color: #2c3e50;
 }
 
+/*imagem de fundo no body*/
+body {
+  background-image: url('https://previews.123rf.com/images/tsyew/tsyew2309/tsyew230901918/213814916-cultivating-empathy-imagery-humanity-themed-background-illustratio.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .header-principal h1 {
   color: white;
   background-color: #862888;
